@@ -15,7 +15,6 @@
 class class1 : public QMainWindow{
     Q_OBJECT;
 private:
-    QPushButton* button=new QPushButton;
     QProgressBar* bar=new QProgressBar;
     QSlider* slider=new QSlider;
 public:
