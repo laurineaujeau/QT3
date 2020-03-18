@@ -9,15 +9,17 @@
 #include <QProgressBar>
 #include <QSlider>
 #include <QPushButton>
+#include <QMainWindow>
+#include <QVBoxLayout>
 
-class class1 : public QWidget {
+class class1 : public QMainWindow{
     Q_OBJECT;
 private:
     QPushButton* button=new QPushButton;
     QProgressBar* bar=new QProgressBar;
     QSlider* slider=new QSlider;
 public:
-    class1( QWidget* parent = 0);
+    class1( QWidget* parent = 0, int valBar=10, int valSlider=0);
 
 };
 
