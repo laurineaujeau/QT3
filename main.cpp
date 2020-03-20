@@ -16,7 +16,7 @@ int main(int argc, char ** argv) {
     button.setText("fils");
     button.show();
     QObject :: connect (&button, SIGNAL ( clicked()), qApp, SLOT ( quit()));*/
-     ///EXERCICE2 / PROGRAMME 1 / VERSION 2
+     ///EXERCICE2 / VERSION 2
     class2* fenetre2 = new class2;
     fenetre2 -> show();
     return app.exec();

@@ -14,16 +14,18 @@
 #include <QVBoxLayout>
 #include <string>
 #include <iostream>
-
+#include <QTextEdit>
 class class2 : public QMainWindow{
     Q_OBJECT;
 private:
     QPushButton* button=new QPushButton;
+    QTextEdit* zoneText = new QTextEdit;
     int compteurClick=0;
 public:
     class2( QWidget* parent = 0);
 public slots:
     void  changeButton ();
+    void  changeButton2 ();
 };
 
 
